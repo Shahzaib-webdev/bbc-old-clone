@@ -1,28 +1,63 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: Helvetica, sans-serif;
 }
 
 
 #top-bar{
-    width: 1500px;
-    height: 50px;
-    margin:auto;
+    width: 1200px;
+    height: 40px;
+    margin: 0 auto;
 }
 
 #bbc-logo{
     margin-top: 7px;
-    height:40px;
+    margin-right: 6px;
+    float: left;
 }
 
-#signin{
-    margin-left: 20px;
+.topbar-menu{
+    border-left: 1px solid #CCCCCC;
+    height: 100%;
+    float: left;
+    margin-right: 10px;
+}
+
+#signin-logo{
+    margin: 10px;
+    float: left;
+}
+
+.text-dec{
+    font-weight: bold;
+    font-size: 13px;
+    position: relative;
+    top:12px;
+    left: 5px;
+    padding: 10px;
+}
+
+#signin-text{
+    margin-right: 100px;
+    padding: 0;
+}
+
+#more-arrow{
+    float: right;
     margin-top: 5px;
-    margin-right: 5px;
-    height: 25px;
+    margin-left: 15px;
 }
 
-h3{
-    display: inline;
-    font-size: 25px;
+#search-bar{
+    margin: 11px 0 11px 11px;
+    float: left;
+    background-color: #e4e4e4;
+    font-weight: bold;
+    padding: 3px;
+}
+
+#searchicon{
+    margin-top: 10px;
+    height: 24px;
 }
