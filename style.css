@@ -139,3 +139,94 @@ h3 a:hover{
     width: 300px;
     float: left;
 }
+
+#clock-icon{
+    position: relative;
+    top: 8px;
+}
+
+#topic-link{
+    text-decoration: none;
+    color:rgb(204, 38, 38);
+    border-left: 2px solid #0c0808;
+    padding-left: 10px;
+}
+
+#topic-link:hover{
+    color: purple;
+}
+
+#date-span{
+    padding-right: 10px;
+}
+
+hr{
+    width: 60px;
+    border-color: rebeccapurple;
+}
+
+.article-links{
+    text-decoration: none;
+    color: #0c0808;
+}
+
+.article-links:hover{
+    color: #1167a8;
+}
+
+#main-article-img{
+    width:500px;
+    height: 252px;
+    position: relative;
+    left: 10px;
+    top: 17px;
+}
+
+#article-container{
+    float: left;
+    /* background-color: #1167a8; */
+    width: 850px;
+    height: 400px;
+    border-right: 1px solid rgb(117, 95, 81);
+}
+
+/* side content */
+#heading4{
+    position: relative;
+    left: 10px;
+}
+
+.side-content{
+    padding-left: 10px;
+    width: 280px;
+    float: left;
+}
+
+.video-icon{
+    width: 60px;
+    float: left;
+    padding-right: 10px;
+}
+
+.clock-ico{
+    width: 20px;
+    position: relative;
+    top: 3px;
+}
+
+.side-content a{
+    position: relative;
+    bottom: 20px;
+}
+
+#side-article{
+    position: relative;
+    top: 3px;
+}
+
+.icon-time{
+    position: relative;
+    bottom: 33px;
+    left: 70px;
+}
+
